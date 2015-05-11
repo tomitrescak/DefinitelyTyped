@@ -579,6 +579,7 @@ declare module Mongo {
 		new(hexString: string): ObjectID;
 	}
 	interface ObjectID {
+		_str: string;
 	}
 
 }
